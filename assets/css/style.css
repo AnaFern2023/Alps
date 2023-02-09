@@ -87,7 +87,7 @@ main div img {
 }
 
 main section:nth-of-type(3) h2 {
-    font-size: 2rem;
+    font-size: 3rem;
     text-align: center;
     padding-bottom: 2rem;
 }
@@ -96,8 +96,13 @@ main section.dates {
     padding: 2rem 11rem 6rem 11rem;
 }
 
-main section:nth-of-type(3) p {
+main section:nth-of-type(3) ul {
     padding: 0.5rem;
+    list-style: none;
+}
+
+main section ul li {
+    font-size: 1.9rem;
 }
 
 main section ul .sold_out::after {
